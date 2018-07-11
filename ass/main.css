@@ -1,0 +1,38 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+    background-origin: padding-box;
+    margin: 5px;
+    padding: 10px;
+}
+body {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+section {
+    padding: 5px;
+
+}
+
+article {
+    padding: 5px 5px 15px 25px;
+    background-color: rgba(255, 255, 255, 0.133);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.navi {
+    text-align: center;
+    padding-right: 20px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.514);
+}
+
+h1, footer {
+    text-align: center;
+}
