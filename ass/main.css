@@ -1,4 +1,4 @@
-header, section, footer, aside, nav, main, article, figure {
+header, section, footer, aside, nav, main, article, figure, h2 {
     display: block; 
     background-origin: padding-box;
     margin: 5px;
@@ -9,8 +9,13 @@ body {
     font-size: 14px;
 }
 
+h2 {
+    padding-left: 25px;
+    text-align: center;
+}
+
 section {
-    padding: 5px;
+    padding: 15px;
 
 }
 
@@ -26,13 +31,23 @@ nav {
 
 .navi {
     text-align: center;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 a {
     color: rgba(255, 255, 255, 0.514);
 }
 
+
+
 h1, footer {
     text-align: center;
+}
+
+img {
+    align-content: center;
+    min-width:62px;
+    min-height:62px;
+    max-width:100px;
+    max-height:100px;
 }
