@@ -1,8 +1,7 @@
 body {
-	width: 100wh;
-	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(40deg, rgb(13, 80, 76), rgb(16, 70, 87), 
+	rgb(38, 102, 131), rgb(60, 7, 121));
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -44,4 +43,258 @@ body {
 		background-position: 0% 50%
 	}
 }
+
+.sidenav {
+	color: #fff;
+	background: linear-gradient(-60deg, rgb(13, 77, 68), rgb(39, 72, 109), rgb(0, 0, 0));
+	background-size: 100% 400%;
+	-webkit-animation: Gradient 35s ease infinite;
+	-moz-animation: Gradient 35s ease infinite;
+	animation: Gradient 35s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 20%
+	}
+	50% {
+		background-position: 0% 40%
+	}
+	100% {
+		background-position: 0% 60%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 20%
+	}
+	50% {
+		background-position: 100% 40%
+	}
+	100% {
+		background-position: 0% 60%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 20%
+	}
+	50% {
+		background-position: 100% 40%
+	}
+	100% {
+		background-position: 0% 60%
+	}
+}
+
+.shake:hover {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes shake {
+	0%, 100% {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	}
+	10%, 30%, 50%, 70%, 90% {
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
+	}
+	20%, 40%, 60%, 80% {
+	-webkit-transform: translate3d(10px, 0, 0);
+	transform: translate3d(10px, 0, 0);
+	}
+	}
+	@keyframes shake {
+	0%, 100% {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	}
+	10%, 30%, 50%, 70%, 90% {
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
+	}
+	20%, 40%, 60%, 80% {
+	-webkit-transform: translate3d(10px, 0, 0);
+	transform: translate3d(10px, 0, 0);
+	}
+} 
+
+.right:active {
+	-webkit-animation-name: slideOutRight;
+	animation-name: slideOutRight;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutRight {
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	}
+	}
+	@keyframes slideOutRight {
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	}
+} 
+
+.left:active {
+	-webkit-animation-name: slideOutLeft;
+	animation-name: slideOutLeft;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutLeft {
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	}
+	}
+	@keyframes slideOutLeft {
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	}
+}
+
+.down:active {
+	-webkit-animation-name: slideOutDown;
+	animation-name: slideOutDown;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutDown {
+	0% {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	}
+	}
+	@keyframes slideOutDown {
+	0% {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	}
+	100% {
+	visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	}
+} 
+
+
+/* ==== Skills Bar ==== */
+
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:10;
+	left:10;
+	width:125px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	-moz-border-radius-topleft:50px;
+	-moz-border-radius-bottomleft:50px;
+	border-top-left-radius:50px;
+	border-bottom-left-radius:50px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 15px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	-moz-border-radius-topleft:50px;
+	-moz-border-radius-bottomleft:50px;
+	border-top-left-radius:50px;
+	border-bottom-left-radius:50px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
 

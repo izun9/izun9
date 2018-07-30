@@ -1,36 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 header, section, footer, aside, nav, main, article, figure, h2 {
     display: block; 
     background-origin: padding-box;
+    font-family: 'Nunito';
     margin: 5px;
     padding: 10px;
 }
 
 html, * html {
-
+    overflow: hidden;
 }
 
-
 body {
-    font-family: Verdana;
-    font-size: 14px;
+    font-family: 'Nunito';
+    font-size: 16px;
 }
 
 h2 {
-    padding-left: 25px;
+    padding-left: 10px;
     text-align: center;
 }
 
 section {
-    padding: 15px;
+    padding: 5px;
+ 	width: auto;
+	height: 100px;
+	position: relative;
+}
 
+svg {
+	max-width: 700px;
+    position: relative;
+    align-content: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 article {
-    padding: 5px 5px 15px 25px;
-    background-color: rgba(255, 255, 255, 0.133);
+    color: rgb(255, 255, 255);
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.534);
     text-align: center;
     border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.300);
+    box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+    height: 310px;
+    width: 350px;
 }
+
+#myBtn {    
+	position: relative;
+    width: 120px;
+	left:40%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #02020296;
+}
+
+button {     
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    align-items: center;
+    border: 0px;
+}
+
+.send {
+    width: 60px;
+    height: 30px; 
+    font-size: 15px;
+    background-color: #0572a5d0;
+    }
+
+.send:hover {
+    opacity: 1;
+}
+
+form {
+    width: 100%;
+	display: inline-block;
+    margin-top: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.308);
+  }
+
+  form input,
+  form textarea {
+    font: inherit;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
+    background-color: #0572a5d0;
+    box-shadow: #464646b9;
+  }
+
+  input[type=text]:focus,{
+	      outline: none;
+  }
+
+  .message {
+      height: 80px;
+	  border-radius 50px;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+	font-size: 14px;
+    opacity: 1; /* Firefox */
+	padding:17px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+	font-size: 10px;
+	float : top;
+	padding:17px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+	font-size: 10px;
+	float : top;
+	padding:17px;
+}
+
+
+  form label {
+    color: rgba(255, 255, 255, 0.418);
+    font-size: 11px;
+    margin-bottom: 2px;
+    display: block;
+  }
 
 nav {
     text-align: center;
@@ -41,21 +149,263 @@ nav {
     padding-right: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.514);
+.navi:hover {
+    color: #fff;
 }
 
+.nave {
+    text-align: center;
+}
+
+.nave:hover {
+    color: #fff;
+}
+
+.nava {
+    text-align: center;
+    padding-right: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    color: rgba(255, 255, 255, 0.753);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding-left: 15px;
+    padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+    width: 325;
+    height: 400;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.300);
+    box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+}
 
 
 h1, footer {
     text-align: center;
+    padding-left: 10px;
 }
 
-img {
+.img-center {
+    opacity: 0.8;
+	border-radius: 20px;
+	position: relative;
+    left: 11%;
+}
+
+.center {
+	align-content:center;
+	align-items:center;
+	position:relative;
+}
+
+#service {
+	padding-top:20px;
+}
+
+.imge {
     align-content: center;
     min-width:62px;
     min-height:62px;
     max-width:100px;
     max-height:100px;
+}
+
+.palm {
+    align-content: center;
+    position: absolute;
+    bottom: 17px;
+    min-width:162px;
+    min-height:162px;
+    max-width:400px;
+    max-height:300px;
+} 
+
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav .b {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.sidenav .b:hover {
+    color: #ffffff88;
+}
+
+.main {
+    margin-left: 400px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+canvas {
+    position: fixed; /* absolute */
+    top: 0;
+    left: 0;
+    width: 100vw;    /* 100% */
+    height: 100vh;   /* 100% */
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    padding-left: 200px;
+    border-radius: 15px;
+    top: 0;
+    width: 300px; /* Full width */
+    height: 300px; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    padding: 2px 16px;
+    border: 0px solid rgb(38, 38, 38);
+    border-radius: 15px;
+    width: 100%;
+	height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Davide Rizzo dir ================================== */
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0 0 3em 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  background-color: rgba(0, 142, 96, 0.534);
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+  -moz-box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.300);
+  box-shadow: 5px 5px 2px 2px rgba(1, 1, 1, 0.300);
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.edu, .work {
+    text-align: center;
+} 
+
+.educ {
+    background-color: rgba(8, 160, 165, 0.534);
+}
+
+.Rtable--2cols > .Rtable-cell  { width: 50%; }
+.Rtable--3cols > .Rtable-cell  { width: 33.33%; }
+.Rtable--4cols > .Rtable-cell  { width: 25%; }
+.Rtable--5cols > .Rtable-cell  { width: 20%; }
+.Rtable--6cols > .Rtable-cell  { width: 16.6%; }
+
+body {
+    padding: 2em;
+    border-top: none; border-bottom: none;
+  }
+
+h1, h2, h3, h4, h5, h6 { margin-top: 0; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1em; }
+strong { color: darken(slategrey,20%); }
+
+
+/*  Mobile View  */
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: inline;
+        width: 100%;
+        float: left;
+    }
+    html, * html {
+        overflow: auto;
+        box-sizing: border-box;
+        font-size: 8px;
+    }
+    .sidenav .main .b .b:hover {
+        background-color: #0404043f;
+        width: 0%;
+        float: left;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+		opacity: 0.8;
+    }
 }
