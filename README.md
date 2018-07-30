@@ -18,7 +18,7 @@
 - EmailJS
 - My Idea
 
-####Feature :
+#### Feature :
 - Powerfull 
 - Static Web
 - Easy to edit
@@ -33,7 +33,7 @@
 ------------
 
 
-#####Free to use, just click on fork or star it, then clone it. 
+##### Free to use, just click on fork or star it, then clone it. 
 
 ###### MIT License  &copy; Mo Ilmi 2018
 [![back](https://izun9.now.sh/ass/bali.png "back")](https://izun9.now.sh/ass/bali.png "back")
