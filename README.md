@@ -1,30 +1,39 @@
-# New unique home by izun8.
-## Simple & Unique Portfolio.
-=============================
-
-(https://izun9.now.sh/ass/fiss.png)
+# Unique home by izun9 
 
 
-[Used :
+### Simple & Unique Portfolio
+
+
+------------
+
+
+------------
+
+
+#### Website Build Used :
 - HTML
 - CSS
 - Jquery3
 - AnimeJS
 - EmailJS
-- My Idea]
-===========
+- My Idea
+
+####Feature :
+- Powerfull 
+- Static Web
+- Easy to edit
+- Javascript in
 
 
+## Expample here...   [izun9.now.sh](https://izun9.now.sh "izun9.now.sh")
 
-## Static Web
-## Easy to edit
-## Powerfull JS 
-===============
+------------
 
 
+------------
 
-Free to use, just click on fork or star it, then clone it. 
 
-'''MIT License
-Copyright (c) 2018 Alva Izun Ilmi'''
-(https://izun9.now.sh/ass/bali.png)
+#####Free to use, just click on fork or star it, then clone it. 
+
+###### MIT License  &copy; Mo Ilmi 2018
+[![back](https://izun9.now.sh/ass/bali.png "back")](https://izun9.now.sh/ass/bali.png "back")
